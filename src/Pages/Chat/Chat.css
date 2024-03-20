@@ -1,0 +1,305 @@
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+  
+.chat-header {
+    width: 100%;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+  
+.chat-logout-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #007bff;
+    background-color: #ffffff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  
+}
+  
+.chat-logout-button:hover {
+    background-color: #007bff;
+    color: white;
+}
+.input-field{
+    width: 10px;
+    border-radius: 10px;
+    /* margin-right: 85%; */
+    border: none !important;
+    outline: none !important;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.input-field:focus{
+    border: 2px solid dodgerblue;    
+}
+
+.viewWrapContentItem{
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    margin-left: 15px;
+    color: #704152;
+    word-wrap: break-word;
+}
+
+.profileviewleftside{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ececec;
+}
+
+.textItem{
+    display: block;
+    overflow: hidden;
+    width: 240px;
+    text-align: left;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Logout{
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    box-shadow: 0 5px 5px #808888;
+    cursor: pointer;
+    color: #000;
+    border-radius: 50px;
+    background-color: white;
+}
+  
+.ProfilePicture{
+    width: 45px;
+    height: 45px;
+    background-image: url(../../images/nopic.jpg);
+    left: 10px;
+    position: absolute;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.root{
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+}
+
+.header{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: #1ebea5;
+    padding: 25px;
+    /*box-sizing: border-box;*/
+}
+  
+.rootsearchbar{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #f7f7f7;
+
+}
+
+.input-icons i{
+    position: absolute;
+}
+
+.input-icons{
+    width: 100%;
+}
+
+.viewListUser{
+    overflow-y: scroll;
+    max-height: 100vh;
+    min-height: 90vh;
+    height: auto;
+    width: 50vh;
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
+}
+
+.viewListUser::-webkit-scrollbar-track{
+    padding: 2px 0;
+    background-color: #ffffff;
+    
+}
+
+.viewListUser::-webkit-scrollbar{
+    width: 6px;
+}
+
+.viewListUser::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #9999;
+}
+
+.btnYes{
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    margin-right: 20px;
+    background-color: #45787b;
+    border: 0;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btnNo{
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: #94c043;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+}
+
+.notificationparagraph{
+    right: 0;
+    bottom: 0;
+}
+
+.viewWrapButtondialogConfirLogout{
+    flex-direction: row;
+    height: 100px;
+    width: 200px;
+    min-width: 400px;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    align-items: center;
+}
+
+.viewWrapTextDialogConfirmLogout{
+    width: 400px;
+    height: 50px;
+    background-color: #d8615a;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+}
+
+.titleDialogConfirmLogout{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.viewCoverScreen{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon{
+    padding: 10px;
+    background: rgb(148, 167, 185);
+    opacity: 0.5;
+    color: white;
+    text-align: center;
+    min-width: 50px;
+    border-radius: 10px;
+}
+
+.viewWrapItemFocused{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    max-width: 44vh;
+    min-width: 44vh;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.viewAvatarItem{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    background-image: url(../../images/nopic.jpg);
+}
+
+.viewWrapItem{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #fff;
+    max-width: 44vh;
+    min-width: 44vh;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    /* border-left: 15px solid #1ebea5 */
+    /* margin-bottom: 3px;*/
+}
+
+.viewWrapItemNotification{
+    border: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.newmessages{
+    font-size: 8px;
+}
+
+.viewLoading{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+
+

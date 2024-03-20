@@ -1,0 +1,21 @@
+.header-login-signup .header-limiter h1{
+    float: none;
+    margin: 8px 0 2px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1;
+
+}
+
+.header-login-signup .header-limiter nav{
+    margin: 0;
+    float: none;
+}
+
+.header-login-signup .header-limiter nav li a{
+    font-size: 13px;
+}
+
+.header-login-signup .header-limiter ul{
+    display: none;
+}

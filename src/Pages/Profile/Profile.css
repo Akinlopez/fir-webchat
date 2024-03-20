@@ -1,0 +1,122 @@
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: none !important;
+    outline: none !important;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+.viewWrapContentItem {
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    margin-left: 15px;
+    color: #704152;
+    word-wrap: break-word;
+}
+
+.profileviewleftside {
+    padding: 10px;
+    width: 100%;
+}
+
+.profileroot {
+    align-items: center;
+    display: flex;
+    min-height: 61rem;
+    flex-direction: column;
+    background: linear-gradient(-45deg, #ce7752, #4adf83, #23a6d5, #23d5a5);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.profileitems {
+    flex-direction: column;
+}
+
+.viewLoading {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    align-self: center;
+    margin-top: 50px;
+    object-fit: cover;
+    background-image: url(../../images/nopic.jpg);
+}
+
+.headerprofile {
+    font-weight: bold;
+    font-size: 20px;
+    color: #203152;
+    background-color: #1ebea5;
+    padding: 20px;
+    box-shadow: 8px 4px 4px #808888;
+}
+
+.textlabel {
+    font-weight: bold;
+    color: #203152;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.textinput {
+    width: 100px;
+    align-self: center;
+    border: none;
+    background-color: grey;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.viewWrapInputFile {
+    margin-bottom: 20px;
+    position: relative; /* Changed to relative */
+}
+
+.imgInputFile {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.viewInputFile {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}

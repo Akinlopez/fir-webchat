@@ -1,0 +1,116 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    line-height: 1.7em;
+    color: #7f8c8d;
+    font-size: 13px;
+  }
+  
+  h1, h2, h3, h4, h5, h6, label {
+    color: #344952;
+  }
+  
+  
+  
+  /* Splash container styling */
+  .splash-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; 
+    background-color: #f5f5f5; /* Light grey background */
+  }
+  
+  .splash {
+    text-align: center;
+  }
+  
+  .splash-head {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .splash-subhead {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 2em;
+  }
+  
+  /* Button styling */
+  .my-super-cool-button {
+    display: inline-block;
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .my-super-cool-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .dots-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  /* Content styling */
+  .content-wrapper {
+    padding: 20px;
+  }
+  
+  .content-head {
+    text-align: center;
+    font-size: 2em;
+    margin: 0.5em 0;
+  }
+  
+  .Appfeatures,
+  .Appfeaturesfounder,
+  .Appfeature {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Provides space between feature boxes */
+  }
+  
+  .content,
+  .contenthead,
+  .box,
+  .box-lrg {
+    margin: 15px;
+    padding: 20px;
+    background: #fff; /* White background for content boxes */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .splash-container {
+        height: auto;
+        padding: 50px 20px;
+    }
+  
+    .Appfeatures,
+    .Appfeaturesfounder,
+    .Appfeature {
+        flex-direction: column;
+    }
+  }
+  

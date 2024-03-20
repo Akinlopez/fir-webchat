@@ -1,0 +1,102 @@
+.root {
+    height: 100vh;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    margin-bottom: 50px;
+}
+
+.paper {
+    margin: 8px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.avatar {
+    margin: 8px;
+    background-color: green;
+}
+
+.form {
+    width: 100%; /* Full width */
+    margin-top: 8px;
+}
+
+.submit {
+    background-color: rgb(10, 65, 50);
+    color: white;
+    padding: 10px 28px;
+    margin: 24px 0px 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+}
+
+.submit:hover,
+.appnamebutton:hover {
+    background-color: #045f3b; /* Darker color on hover */
+}
+
+.appnamebutton{
+    background-color: rgb(10, 65, 50);
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.image1,
+.image { /* Added '.' to class selectors */
+    width: 100%;
+    height: 100%;
+    background-color: #1ebea5;
+    opacity: 0.5;
+}
+
+.image{
+    background-image: url(../../images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.button1:hover span{
+    padding-right: 25px;
+
+}
+
+.button1:hover span:after{
+    opacity: 1;
+    right: 0;
+
+}
+.error {
+    align-items: center;
+    display: flex;
+    margin-left: auto; /* Adjusted margin */
+    margin-right: auto; /* Adjusted margin */
+}
+
+
+
+.card {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 16px;
+}
+
+text-danger {
+    color: #ff0000;
+}
